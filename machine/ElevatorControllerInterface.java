@@ -14,10 +14,10 @@ public interface ElevatorControllerInterface extends Runnable {
      * interupt handler is set. The controller will start receiving events
      * after this method returns, but potentially before <tt>run()</tt> is
      * called.
-     *
-     * @param	controls	the controller's interface to the elevator
-     *				bank. The controller must not attempt to access
-     *				the elevator bank in <i>any</i> other way.
+     * 
+     * @param controls the controller's interface to the elevator
+     *            bank. The controller must not attempt to access
+     *            the elevator bank in <i>any</i> other way.
      */
     public void initialize(ElevatorControls controls);
 
